@@ -1,0 +1,167 @@
+﻿@model project_wira.Models.Agen
+
+@{
+    ViewData["Title"] = "Edit Agen";
+}
+
+<h1>Create Agen</h1>
+
+<hr />
+<form asp-action="Edit" >
+<div class="row">
+    <div class="col-md-6">
+        <!-- Form group pada kolom pertama -->
+        <div class="form-group">
+            <label asp-for="RegDate" class="control-label"></label>
+            <input asp-for="RegDate" class="form-control" />
+            <span asp-validation-for="RegDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="RegStatus" class="control-label"></label>
+            <input asp-for="RegStatus" class="form-control" />
+            <span asp-validation-for="RegStatus" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender" class="control-label"></label>
+            <input asp-for="Gender" class="form-control" />
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="BirthPlace" class="control-label"></label>
+            <input asp-for="BirthPlace" class="form-control" />
+            <span asp-validation-for="BirthPlace" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="BirthDate" class="control-label"></label>
+            <input asp-for="BirthDate" class="form-control" />
+            <span asp-validation-for="BirthDate" class="text-danger"></span>
+        </div>
+    </div> <!-- Penutup kolom pertama -->
+    <div class="col-md-6">
+        <!-- Form group pada kolom kedua -->
+        <div class="form-group">
+            <label asp-for="Address" class="control-label"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone" class="control-label"></label>
+            <input asp-for="Phone" class="form-control" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="IdCard" class="control-label"></label>
+            <input asp-for="IdCard" class="form-control" />
+            <span asp-validation-for="IdCard" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CreateDate" class="control-label"></label>
+            <input asp-for="CreateDate" class="form-control" />
+            <span asp-validation-for="CreateDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CreateBy" class="control-label"></label>
+            <input asp-for="CreateBy" class="form-control" />
+            <span asp-validation-for="CreateBy" class="text-danger"></span>
+        </div>
+
+    </div> <!-- Penutup kolom kedua -->
+</div>
+<div class="form-group">
+    <input type="submit" value="Save" class="btn btn-primary" />
+</div>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+    <style>
+        h1 {
+            font-size: 24px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333333;
+            text-align: center;
+        }
+
+        .row {
+            margin: 20px 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Tambahkan ini */
+        }
+
+        .col-md-6 {
+            background-color: #ebebeb; /* Ganti dengan warna yang diinginkan */
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .text-danger {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        .back-link {
+            margin-top: 20px;
+        }
+
+    </style>
+
+

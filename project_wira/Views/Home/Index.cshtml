@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text-container {
+        flex: 1;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        color: #666;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #87ceeb;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .button:hover {
+            background-color: #87ceeb;
+        }
+
+    .image-container {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .image {
+        max-width: 400px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<div class="container">
+    <div class="text-container">
+        <h1 class="title">Welcome to Our Website</h1>
+        <p class="subtitle">Explore our services and discover the possibilities</p>
+        <a href="Agens/Index" class="button">Register as Agent</a>
+        <p>Learn more about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+    <div class="image-container">
+        <img src="https://i.pinimg.com/originals/eb/75/3e/eb753ea8f93bca3cf69e60fb5c4f1194.gif" alt="Animated Image"  class="image">
+    </div>
+</div>

@@ -1,0 +1,8 @@
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.csproj.AssemblyReference.cache
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.AssemblyInfoInputs.cache
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.AssemblyInfo.cs
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.csproj.CoreCompileInputs.cache
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.RazorAssemblyInfo.cache
+C:\Users\mak hitam\Documents\project.net\project_wira\obj\Debug\net6.0\project_wira.RazorAssemblyInfo.cs

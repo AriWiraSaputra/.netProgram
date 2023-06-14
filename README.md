@@ -1,9 +1,7 @@
 # Simple WEB with .NET (c#)
 
-A simple Sales Inventory Application (Administrator) built using _**Vue.js**_ as the frontend and _**Node.js**_ as the backend.
  <p align="center">
-  <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/vue.gif" width="280">
-  <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/nodejs.gif" width="280">
+  <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/index-home.gif" >
  </p>
 
  To create a website that with .NET (c#), following are the steps:
@@ -82,69 +80,45 @@ A simple Sales Inventory Application (Administrator) built using _**Vue.js**_ as
     
 ## 💞 Image and Video 
 
-### 1. Item Module
-   The Item Module is a module used to manage item data in the Sales Inventory application. The module consists of the following fields or attributes:
-    
-   - `item_name`: The name or title of the item.
-   - `unit`: The unit of measurement for the item, such as kilograms (kg) or pieces (pcs).
-   - `stock`: The quantity of the item in stock.
-   - `unit_price`: The price per unit of the item.
-   - `item_image`: The image or photo of the item.
-
-   With the Item Module, users can manage information about items, including their name, unit, stock, unit price, and image.
-   
-  <p align="center">
-    <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromItem.png">
-    <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/inventory-gif.gif">
-    <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromItem2.png">
-  </p>
-
-
-### 2. Customer Module
-   The Customer Module consists of several fields used to manage customer data. Here is a brief explanation of the fields found in the Customer Module:
-   
-   - `Name`: Field to store the customer's name.
-   - `Contact`: Field to store contact information for the customer, such as a phone number.
-   - `Email`: Field to store the customer's email address.
-   - `Address`: Field to store the customer's complete address.
-   - `Discount`: Field to store information about the discount given to the customer.
-   - `Discount` Type: Field to determine the type of discount used. There are two types of discounts available:
-     - a. `Percentage`: The discount is expressed as a percentage of the price.
-     - b. `Fixed Discount`: The discount is expressed as a fixed amount subtracted from the price.
-   
-   Additionally, there is a field called KTP (identification image) used to store the customer's identification image.
-   With the Customer Module, you can manage customer data including their name, contact information, email, address, discount details, discount type, and KTP image.
+The agent registration page is used to register new agents in the system. Then navigate to the "Index" feature. This page includes the following features:
 
   <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromCustomers1.png">
-      <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/inventory-app-Customer_gif.gif">   
-      <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromCustomers.png">
-  </p>
+     <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Index.png" >
+ </p>
 
-### 3. Sales Module
-   The Sales Module consists of several fields used to manage sales data. Here are the details of the fields in the Sales Module:
-   
-   - `Code Transaksi`: Field to store the transaction code.
-   - `Tanggal Transaksi`: Field to store the transaction date.
-   - `Customer`: Field to store the customer associated with the sale.
-   - `Item (Multiple)`: Field to store multiple items included in the sale.
-   - `Qty`: Field to store the quantity of each item.
-   - `Total Diskon (Auto Fill)`: Field to automatically calculate the total discount applied.
-   - `Total Harga (Auto Fill)`: Field to automatically calculate the total price.
-   - `Total Bayar`: Field to store the total payment amount.
+ 1. Create Agent: Allows users to create a new entry for an agent by filling out an agent registration form.
+  
+    <p align="center">
+     <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Creat%20agen.png" >
+     <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/index-creat.gif">
+    </p>
+  
+ 2. Agent Detail: Displays detailed information about a specific agent, including data such as name, address, date of birth, and more.
+
+    <p align="center">
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Details.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Index%20-%20Detail.gif">
+    </p>
+ 
+ 3. Edit Agent: Enables users to edit the information of a previously registered agent. Users can modify or update data such as address, phone number, or other information.
+
+    <p align="center">
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/edit.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Index%20-%20edit.gif">
+    </p>
+ 
+ 4. Delete Agent: Provides an option to remove a specific agent entry from the system if needed.
 
    <p align="center">
-       <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromsales2.png">
-       <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/inventory-app-sales-gif.gif">  
-       <img src="https://github.com/AriWiraSaputra/Inventory-app-vue-node.js/blob/main/Img/fromsales.png">
-   </p>   
-   
-   Additional Notes:
-   - The calculation of the total price is adjusted based on the discount applied in the Customer Module (if applicable).
-   - The quantity of items purchased should not exceed the available stock.
-   - The stock is reduced when a purchase is made.
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/delete.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Hasil%20Deleted.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Index%20-%20delete.gif">
+    </p>
 
-   With the Sales Module, you can manage sales transactions by recording the transaction code, date, associated customer, items purchased, quantity, total discount, total price, and payment amount. The module ensures accurate calculations and stock management during sales transactions.
+The agent registration page serves as a central control for agent data management, allowing users to perform actions such as creating, viewing details, editing, and deleting agent data. It facilitates efficient management and maintenance of agent information for users.
+
+
+  
 
 <!-- LICENSE -->
 ## 📋 License

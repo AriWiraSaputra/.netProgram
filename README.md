@@ -136,7 +136,7 @@ password = "MyPassword123"
 ```
 
    <p align="center">
-       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/delete.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/Hasil%20Python.png" >
     </p>
 
 To use the password validation function, call it and pass the password string as an argument. The function will then return the result indicating whether the password is valid or not.
@@ -160,7 +160,7 @@ Example usage:
            print("No pair of elements sum up to the target.")
 ```
  <p align="center">
-       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/delete.png" >
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/hasil%20python3.png" >
     </p>
   
 

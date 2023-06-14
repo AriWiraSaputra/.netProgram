@@ -31,7 +31,7 @@
 1. Create a `Models` folder in your project.
 2. Create a model class for the `Agent` entity with appropriate properties such as RegDate, RegStatus, Name, etc.
 
-## Create Controller and Views for Agent Registration Page
+## ✨ Create Controller and Views for Agent Registration Page
 
 1. Create a `Controllers` folder in your project.
 2. Create a controller named "AgentsController" using the "MVC Controller - Empty" template.
@@ -40,39 +40,39 @@
 5. Create a "Create.cshtml" view inside the "Views/Agents" folder to display the agent registration form.
 6. Use the HTML code you provided earlier to build the form view.
 
-## Create Controller and Views for List of Registration Results Page:
+## 📢 Create Controller and Views for List of Registration Results Page:
 
 1. Create a controller named "RegistrationController" using the "MVC Controller - Empty" template.
 2. Implement the "Index" action to display the list of registration results.
 3. Create an "Index.cshtml" view inside the "Views/Registration" folder to display the list of registrations.
 
-## Create Controller and Views for View Registration Details Page:
+## 📧 Create Controller and Views for View Registration Details Page:
 
 1. Create a controller named "DetailController" using the "MVC Controller - Empty" template.
 2. Implement the "View" action to display the registration details.
 3. Create a "View.cshtml" view inside the "Views/Detail" folder to display the registration details.
 
-## Add Routes for Each Controller and View:
+## 🔭 Add Routes for Each Controller and View:
 
 1. Open the Startup.cs file in your project.
 2. Add the appropriate routes in the Configure method using endpoints.MapControllerRoute().
 
 
-## Migrate and Synchronize the Database:
+## 🌱 Migrate and Synchronize the Database:
 
 1. Open the Package Manager Console in Visual Studio.
 2. Run the command Add-Migration InitialCreate to create the initial migration.
 3. Run the command Update-Database to apply the migration to the SQL Server database.
 
 
-## Add an Attractive UI Design:
+## 💡 Add an Attractive UI Design:
 
 1. Use CSS, Bootstrap, or other UI libraries to enhance the visual appearance of your pages.
 2. Customize the layout, colors, and other design elements to your preference.
 3. Use relevant images and icons to improve the user experience.
 
 
-## Test and Debug:
+## ⚡ Test and Debug:
 
 1. Run your project to test the functionality and appearance of each page.
 2. Fix and debug any errors or issues that arise.
@@ -118,6 +118,50 @@ The agent registration page is used to register new agents in the system. Then n
 The agent registration page serves as a central control for agent data management, allowing users to perform actions such as creating, viewing details, editing, and deleting agent data. It facilitates efficient management and maintenance of agent information for users.
 
 
+## 🧑 Password Validation Function
+
+This program includes a password validation function that checks whether a given string meets the following requirements:
+
+1. Minimum length of 8 characters.
+2. Contains at least one uppercase letter, one lowercase letter, and one digit.
+3. Does not contain any special characters (e.g., !, @, #, $).
+4. The function returns True if the password is valid and False otherwise.
+
+```sh
+password = "MyPassword123"
+  if validate_password(password):
+     print("Password is valid.")
+  else:
+     print("Password is invalid.")
+```
+
+   <p align="center">
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/delete.png" >
+    </p>
+
+To use the password validation function, call it and pass the password string as an argument. The function will then return the result indicating whether the password is valid or not.
+
+## ✨ Two Sum Function
+
+This program includes a two-sum function that takes an array of integers and a target number as input. It returns the indices of two elements in the array that, when summed, equal the target number. If no such pair of elements exists, the function returns None.
+
+To use the two-sum function, call it and pass the array and target number as arguments. The function will then return the indices of the two elements that satisfy the condition or None if no such pair exists.
+
+Example usage:
+
+```sh
+   nums = [2,2]
+   target = 4
+   result = two_sum(nums, target)
+     if result is not None:
+        index1, index2 = result
+           print(f"The indices of the two elements are: {index1} and {index2}.")
+     else:
+           print("No pair of elements sum up to the target.")
+```
+ <p align="center">
+       <img src="https://github.com/AriWiraSaputra/.netProgram/blob/main/img/delete.png" >
+    </p>
   
 
 <!-- LICENSE -->
